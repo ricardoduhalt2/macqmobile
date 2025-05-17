@@ -1,9 +1,9 @@
 import './App.css'; // Re-enable App.css for the new styles
 import { ConnectButton } from 'thirdweb/react';
 import { polygon } from 'thirdweb/chains';
-import { client } from './main'; // Import the initialized client
+import { client from './main'; // Import the initialized client
 import DropCard from './components/DropCard';
-import { allNftsData } from './types'; // Import the actual NFT data
+import { allNftsData from './types'; // Import the actual NFT data
 import Chatbot from './components/Chatbot'; // Import the Chatbot component
 
 function App() {
