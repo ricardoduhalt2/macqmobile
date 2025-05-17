@@ -30,7 +30,7 @@ function App() {
             client={client}
             chain={polygon}
             theme="dark"
-            connectModal={{ size: "compact" }
+            connectModal={{ size: "compact" }}
           />
         </div>
       </header>
