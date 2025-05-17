@@ -8,18 +8,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <script>
-      if (window.innerWidth <= 768) {
-        // Redirect to mobile version (if it exists)
-        if (window.location.hostname === "macqmobile.vercel.app") {
-          window.location.href = "https://macqmobile.vercel.app/mobile"; // Replace with actual mobile URL if different
-        } else {
-          alert("This is the mobile version!");
-        }
-      } else {
-        // alert("This is the desktop version!");
-      }
-    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
