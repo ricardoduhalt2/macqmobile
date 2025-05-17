@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/(.*)\\.js",
+      "source": "/dist/assets/(.*)\\.js",
       "headers": [
         {
           "key": "Content-Type",
