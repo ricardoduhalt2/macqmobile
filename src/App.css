@@ -315,7 +315,6 @@ body::before { /* Pseudo-element for background shifting light effect */
   /* padding-left: 100%; */ /* Removed padding */
   animation: marquee 15s linear infinite !important; /* Added !important */
   white-space: nowrap; /* Crucial for preventing wrap */
-  will-change: transform;
   color: var(--text-color);
   margin: 0;
   /* text-4xl from Tailwind handles font size, Tailwind's mt-4 handles top margin FOR THE CONTAINER */
