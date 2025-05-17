@@ -17,11 +17,9 @@ The following dependencies are required for the chatbot:
 
 To install these dependencies, use npm or yarn:
 
-```bash
 npm install @google/generative-ai react react-dom i18next react-i18next thirdweb
 # or
 yarn add @google/generative-ai react react-dom i18next react-i18next thirdweb
-```
 
 ## Code Structure
 
